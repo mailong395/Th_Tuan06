@@ -45,7 +45,6 @@ export default function ScreenBai01() {
   }
 
   const renderItem = ({ item }) => {
-    const id = item.id;
     return <LayoutItem item={item} onPress={() => deleteItem(item.id)} />;
   };
 
